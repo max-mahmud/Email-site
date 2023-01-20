@@ -1,0 +1,75 @@
+@media screen and (max-width: 991px) {
+    .nav-link, .active{
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .development{
+        margin-top: 15px;
+        border-left: 1px solid #EF6D58;
+    }
+    .hero-img img{
+        width: 73%;
+    }
+    .mybtn{
+        display: flex;
+        justify-content: center;
+    }
+    .btn-primary{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .header-area .my-btn{
+        width: 60%;
+    }
+    .hero-text h2{
+        font-size: 42px;
+    }
+    .hero-text{
+        margin-top: 20px;
+        text-align: center;
+        overflow: hidden;
+    }
+    .hero-foot{
+        overflow: hidden;
+        padding: 0;
+    }
+    .footer-right{
+        text-align: center;
+    }
+    .footer-right li{
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+    .design, .development{
+        width: 90%;
+        margin: auto;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .header-area .my-btn{
+        width: 80%;
+    }
+    .footer-right li{
+        display: block;
+        margin-right: 00px;
+        margin-top: 15px;
+    }
+    .navbar{
+        padding: 0 15px;
+    }
+    .design, .development{
+        width: 90%;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .contact-text h2{
+        font-size: 36px;
+        margin: 20px 0;
+        font-weight: 600;
+    }
+}
